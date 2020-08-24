@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="menu_container">
+        <div class="menu_item">
+            <p><img src="./images/logo.png" width="80" height="60"></p>
+        </div>
+        <div class="menu_item">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="myphotos.html">Photos</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <h2 style="text-align:center">Royalty Free Photos! Go to <a href ="myphotos.html">Photos </a>to download!!</h2>
+
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="./images/1.png" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="./images/copley.png" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="./images/w3.jpeg" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="./images/p4.jpeg" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="./images/orange.jpeg" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="./images/fall.png" width="100%" height="600">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="./images/1.png" style="width:100%" onclick="currentSlide(1)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/copley.png" style="width:100%" onclick="currentSlide(2)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/w3.jpeg" style="width:100%" onclick="currentSlide(3)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/orange.jpeg" style="width:100%" onclick="currentSlide(4)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/fall.png" style="width:100%" onclick="currentSlide(5)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/w1.jpeg" style="width:100%" onclick="currentSlide(6)">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript/script.js"></script>
+
+</body>
+<footer>
+
+</footer>
+</html>
