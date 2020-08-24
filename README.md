@@ -12,7 +12,7 @@ In process, need to host.
 ## Tech/framework used
 
 <b>Built with</b>
-- HTML, CSS, JavaScript only
+- HTML, CSS, JavaScript 
 
 ## Features
 -Users can view and download photos without copyright issue.
