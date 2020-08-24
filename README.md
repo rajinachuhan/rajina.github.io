@@ -1,5 +1,5 @@
 ## Royalty Free Photos
-This is website created for users to download photos for free.
+This is a website created for users to download photos for free.
 
 ## Motivation
 I like clicking photos. I wanted to make a photo gallery on web for a long time and wanted to let other people use my photos without any copyright issue. 
@@ -33,7 +33,7 @@ Install any code editor like Visual Studio Code, Brackets Atom, etc.
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 ## Tests
-Describe and show how to run the tests with code examples.
+
 
 ## How to use?
 You can simply go the site " " and download your choice of photos.
